@@ -1,0 +1,402 @@
+{
+    "utts": {
+        "1272_128104_000001_000000": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:26",
+                    "name": "input1",
+                    "shape": [
+                        143,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        20,
+                        78
+                    ],
+                    "text": "A 'JOLLY' ART CRITIC",
+                    "token": "A <space> ' J O L L Y ' <space> A R T <space> C R I T I C",
+                    "tokenid": "15 13 4 24 29 26 26 39 4 13 15 32 34 13 17 32 23 34 23 17"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000003_000000": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:12153",
+                    "name": "input1",
+                    "shape": [
+                        477,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        87,
+                        78
+                    ],
+                    "text": "There is a healthy bank holiday atmosphere about this book which is extremely pleasant.",
+                    "token": "T h e r e <space> i s <space> a <space> h e a l t h y <space> b a n k <space> h o l i d a y <space> a t m o s p h e r e <space> a b o u t <space> t h i s <space> b o o k <space> w h i c h <space> i s <space> e x t r e m e l y <space> p l e a s a n t .",
+                    "tokenid": "34 50 47 60 47 13 51 61 13 43 13 50 47 43 54 62 50 67 13 44 43 56 53 13 50 57 54 51 46 43 67 13 43 62 55 57 61 58 50 47 60 47 13 43 44 57 63 62 13 62 50 51 61 13 44 57 57 53 13 65 50 51 45 50 13 51 61 13 47 66 62 60 47 55 47 54 67 13 58 54 47 43 61 43 56 62 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000003_000001": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:51000",
+                    "name": "input1",
+                    "shape": [
+                        405,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        57,
+                        78
+                    ],
+                    "text": "mr Quilter is entirely free from affectation of any kind.",
+                    "token": "m r <space> Q u i l t e r <space> i s <space> e n t i r e l y <space> f r e e <space> f r o m <space> a f f e c t a t i o n <space> o f <space> a n y <space> k i n d .",
+                    "tokenid": "55 60 13 31 63 51 54 62 47 60 13 51 61 13 47 56 62 51 60 47 54 67 13 48 60 47 47 13 48 60 57 55 13 43 48 48 47 45 62 43 62 51 57 56 13 57 48 13 43 56 67 13 53 51 56 46 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000003_000002": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:84087",
+                    "name": "input1",
+                    "shape": [
+                        636,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        126,
+                        78
+                    ],
+                    "text": "He rollicks through art with the recklessness of the tourist and describes its beauties with the enthusiasm of the auctioneer.",
+                    "token": "H e <space> r o l l i c k s <space> t h r o u g h <space> a r t <space> w i t h <space> t h e <space> r e c k l e s s n e s s <space> o f <space> t h e <space> t o u r i s t <space> a n d <space> d e s c r i b e s <space> i t s <space> b e a u t i e s <space> w i t h <space> t h e <space> e n t h u s i a s m <space> o f <space> t h e <space> a u c t i o n e e r .",
+                    "tokenid": "22 47 13 60 57 54 54 51 45 53 61 13 62 50 60 57 63 49 50 13 43 60 62 13 65 51 62 50 13 62 50 47 13 60 47 45 53 54 47 61 61 56 47 61 61 13 57 48 13 62 50 47 13 62 57 63 60 51 61 62 13 43 56 46 13 46 47 61 45 60 51 44 47 61 13 51 62 61 13 44 47 43 63 62 51 47 61 13 65 51 62 50 13 62 50 47 13 47 56 62 50 63 61 51 43 61 55 13 57 48 13 62 50 47 13 43 63 45 62 51 57 56 47 47 60 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000003_000003": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:135654",
+                    "name": "input1",
+                    "shape": [
+                        706,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        122,
+                        78
+                    ],
+                    "text": "To many, no doubt, he will seem to be somewhat blatant and bumptious, but we prefer to regard him as being simply British.",
+                    "token": "T o <space> m a n y , <space> n o <space> d o u b t , <space> h e <space> w i l l <space> s e e m <space> t o <space> b e <space> s o m e w h a t <space> b l a t a n t <space> a n d <space> b u m p t i o u s , <space> b u t <space> w e <space> p r e f e r <space> t o <space> r e g a r d <space> h i m <space> a s <space> b e i n g <space> s i m p l y <space> B r i t i s h .",
+                    "tokenid": "34 57 13 55 43 56 67 7 13 56 57 13 46 57 63 44 62 7 13 50 47 13 65 51 54 54 13 61 47 47 55 13 62 57 13 44 47 13 61 57 55 47 65 50 43 62 13 44 54 43 62 43 56 62 13 43 56 46 13 44 63 55 58 62 51 57 63 61 7 13 44 63 62 13 65 47 13 58 60 47 48 47 60 13 62 57 13 60 47 49 43 60 46 13 50 51 55 13 43 61 13 44 47 51 56 49 13 61 51 55 58 54 67 13 16 60 51 62 51 61 50 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000003_000005": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:192821",
+                    "name": "input1",
+                    "shape": [
+                        871,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        114,
+                        78
+                    ],
+                    "text": "After listening so long to the Don Quixote of art, to listen once to Sancho Panza is both salutary and refreshing.",
+                    "token": "A f t e r <space> l i s t e n i n g <space> s o <space> l o n g <space> t o <space> t h e <space> D o n <space> Q u i x o t e <space> o f <space> a r t , <space> t o <space> l i s t e n <space> o n c e <space> t o <space> S a n c h o <space> P a n z a <space> i s <space> b o t h <space> s a l u t a r y <space> a n d <space> r e f r e s h i n g .",
+                    "tokenid": "15 48 62 47 60 13 54 51 61 62 47 56 51 56 49 13 61 57 13 54 57 56 49 13 62 57 13 62 50 47 13 18 57 56 13 31 63 51 66 57 62 47 13 57 48 13 43 60 62 7 13 62 57 13 54 51 61 62 47 56 13 57 56 45 47 13 62 57 13 33 43 56 45 50 57 13 30 43 56 68 43 13 51 61 13 44 57 62 50 13 61 43 54 63 62 43 60 67 13 43 56 46 13 60 47 48 60 47 61 50 51 56 49 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000005_000000": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:263188",
+                    "name": "input1",
+                    "shape": [
+                        531,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        76,
+                        78
+                    ],
+                    "text": "About artists and their work mr Quilter has, of course, a great deal to say.",
+                    "token": "A b o u t <space> a r t i s t s <space> a n d <space> t h e i r <space> w o r k <space> m r <space> Q u i l t e r <space> h a s , <space> o f <space> c o u r s e , <space> a <space> g r e a t <space> d e a l <space> t o <space> s a y .",
+                    "tokenid": "15 44 57 63 62 13 43 60 62 51 61 62 61 13 43 56 46 13 62 50 47 51 60 13 65 57 60 53 13 55 60 13 31 63 51 54 62 47 60 13 50 43 61 7 13 57 48 13 45 57 63 60 61 47 7 13 43 13 49 60 47 43 62 13 46 47 43 54 13 62 57 13 61 43 67 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000005_000001": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:306355",
+                    "name": "input1",
+                    "shape": [
+                        1565,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        244,
+                        78
+                    ],
+                    "text": "Sculpture he regards as 'Painting's poor relation'; so, with the exception of a jaunty allusion to the 'rough modelling' of Tanagra figurines he hardly refers at all to the plastic arts; but on painters he writes with much vigour and joviality.",
+                    "token": "S c u l p t u r e <space> h e <space> r e g a r d s <space> a s <space> ' P a i n t i n g ' s <space> p o o r <space> r e l a t i o n ' ; <space> s o , <space> w i t h <space> t h e <space> e x c e p t i o n <space> o f <space> a <space> j a u n t y <space> a l l u s i o n <space> t o <space> t h e <space> ' r o u g h <space> m o d e l l i n g ' <space> o f <space> T a n a g r a <space> f i g u r i n e s <space> h e <space> h a r d l y <space> r e f e r s <space> a t <space> a l l <space> t o <space> t h e <space> p l a s t i c <space> a r t s ; <space> b u t <space> o n <space> p a i n t e r s <space> h e <space> w r i t e s <space> w i t h <space> m u c h <space> v i g o u r <space> a n d <space> j o v i a l i t y .",
+                    "tokenid": "33 45 63 54 58 62 63 60 47 13 50 47 13 60 47 49 43 60 46 61 13 43 61 13 4 30 43 51 56 62 51 56 49 4 61 13 58 57 57 60 13 60 47 54 43 62 51 57 56 4 12 13 61 57 7 13 65 51 62 50 13 62 50 47 13 47 66 45 47 58 62 51 57 56 13 57 48 13 43 13 52 43 63 56 62 67 13 43 54 54 63 61 51 57 56 13 62 57 13 62 50 47 13 4 60 57 63 49 50 13 55 57 46 47 54 54 51 56 49 4 13 57 48 13 34 43 56 43 49 60 43 13 48 51 49 63 60 51 56 47 61 13 50 47 13 50 43 60 46 54 67 13 60 47 48 47 60 61 13 43 62 13 43 54 54 13 62 57 13 62 50 47 13 58 54 43 61 62 51 45 13 43 60 62 61 12 13 44 63 62 13 57 56 13 58 43 51 56 62 47 60 61 13 50 47 13 65 60 51 62 47 61 13 65 51 62 50 13 55 63 45 50 13 64 51 49 57 63 60 13 43 56 46 13 52 57 64 51 43 54 51 62 67 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000005_000006": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:432242",
+                    "name": "input1",
+                    "shape": [
+                        2146,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        317,
+                        78
+                    ],
+                    "text": "That there is a difference between colour and colours, that an artist, be he portrait painter or dramatist, always reveals himself in his manner, are ideas that can hardly be said to occur to him; but mr Quilter really does his best and bravely faces every difficulty in modern art, with the exception of mr Whistler.",
+                    "token": "T h a t <space> t h e r e <space> i s <space> a <space> d i f f e r e n c e <space> b e t w e e n <space> c o l o u r <space> a n d <space> c o l o u r s , <space> t h a t <space> a n <space> a r t i s t , <space> b e <space> h e <space> p o r t r a i t <space> p a i n t e r <space> o r <space> d r a m a t i s t , <space> a l w a y s <space> r e v e a l s <space> h i m s e l f <space> i n <space> h i s <space> m a n n e r , <space> a r e <space> i d e a s <space> t h a t <space> c a n <space> h a r d l y <space> b e <space> s a i d <space> t o <space> o c c u r <space> t o <space> h i m ; <space> b u t <space> m r <space> Q u i l t e r <space> r e a l l y <space> d o e s <space> h i s <space> b e s t <space> a n d <space> b r a v e l y <space> f a c e s <space> e v e r y <space> d i f f i c u l t y <space> i n <space> m o d e r n <space> a r t , <space> w i t h <space> t h e <space> e x c e p t i o n <space> o f <space> m r <space> W h i s t l e r .",
+                    "tokenid": "34 50 43 62 13 62 50 47 60 47 13 51 61 13 43 13 46 51 48 48 47 60 47 56 45 47 13 44 47 62 65 47 47 56 13 45 57 54 57 63 60 13 43 56 46 13 45 57 54 57 63 60 61 7 13 62 50 43 62 13 43 56 13 43 60 62 51 61 62 7 13 44 47 13 50 47 13 58 57 60 62 60 43 51 62 13 58 43 51 56 62 47 60 13 57 60 13 46 60 43 55 43 62 51 61 62 7 13 43 54 65 43 67 61 13 60 47 64 47 43 54 61 13 50 51 55 61 47 54 48 13 51 56 13 50 51 61 13 55 43 56 56 47 60 7 13 43 60 47 13 51 46 47 43 61 13 62 50 43 62 13 45 43 56 13 50 43 60 46 54 67 13 44 47 13 61 43 51 46 13 62 57 13 57 45 45 63 60 13 62 57 13 50 51 55 12 13 44 63 62 13 55 60 13 31 63 51 54 62 47 60 13 60 47 43 54 54 67 13 46 57 47 61 13 50 51 61 13 44 47 61 62 13 43 56 46 13 44 60 43 64 47 54 67 13 48 43 45 47 61 13 47 64 47 60 67 13 46 51 48 48 51 45 63 54 62 67 13 51 56 13 55 57 46 47 60 56 13 43 60 62 7 13 65 51 62 50 13 62 50 47 13 47 66 45 47 58 62 51 57 56 13 57 48 13 55 60 13 37 50 51 61 62 54 47 60 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000005_000007": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:604609",
+                    "name": "input1",
+                    "shape": [
+                        786,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        107,
+                        78
+                    ],
+                    "text": "Painting, he tells us, is 'of a different quality to mathematics,' and finish in art is 'adding more fact'!",
+                    "token": "P a i n t i n g , <space> h e <space> t e l l s <space> u s , <space> i s <space> ' o f <space> a <space> d i f f e r e n t <space> q u a l i t y <space> t o <space> m a t h e m a t i c s , ' <space> a n d <space> f i n i s h <space> i n <space> a r t <space> i s <space> ' a d d i n g <space> m o r e <space> f a c t ' !",
+                    "tokenid": "30 43 51 56 62 51 56 49 7 13 50 47 13 62 47 54 54 61 13 63 61 7 13 51 61 13 4 57 48 13 43 13 46 51 48 48 47 60 47 56 62 13 59 63 43 54 51 62 67 13 62 57 13 55 43 62 50 47 55 43 62 51 45 61 7 4 13 43 56 46 13 48 51 56 51 61 50 13 51 56 13 43 60 62 13 51 61 13 4 43 46 46 51 56 49 13 55 57 60 47 13 48 43 45 62 4 2"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000005_000008": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:668176",
+                    "name": "input1",
+                    "shape": [
+                        1994,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        301,
+                        78
+                    ],
+                    "text": "Portrait painting is a bad pursuit for an emotional artist as it destroys his personality and his sympathy; however, even for the emotional artist there is hope, as a portrait can be converted into a picture 'by adding to the likeness of the sitter some dramatic interest or some picturesque adjunct'!",
+                    "token": "P o r t r a i t <space> p a i n t i n g <space> i s <space> a <space> b a d <space> p u r s u i t <space> f o r <space> a n <space> e m o t i o n a l <space> a r t i s t <space> a s <space> i t <space> d e s t r o y s <space> h i s <space> p e r s o n a l i t y <space> a n d <space> h i s <space> s y m p a t h y ; <space> h o w e v e r , <space> e v e n <space> f o r <space> t h e <space> e m o t i o n a l <space> a r t i s t <space> t h e r e <space> i s <space> h o p e , <space> a s <space> a <space> p o r t r a i t <space> c a n <space> b e <space> c o n v e r t e d <space> i n t o <space> a <space> p i c t u r e <space> ' b y <space> a d d i n g <space> t o <space> t h e <space> l i k e n e s s <space> o f <space> t h e <space> s i t t e r <space> s o m e <space> d r a m a t i c <space> i n t e r e s t <space> o r <space> s o m e <space> p i c t u r e s q u e <space> a d j u n c t ' !",
+                    "tokenid": "30 57 60 62 60 43 51 62 13 58 43 51 56 62 51 56 49 13 51 61 13 43 13 44 43 46 13 58 63 60 61 63 51 62 13 48 57 60 13 43 56 13 47 55 57 62 51 57 56 43 54 13 43 60 62 51 61 62 13 43 61 13 51 62 13 46 47 61 62 60 57 67 61 13 50 51 61 13 58 47 60 61 57 56 43 54 51 62 67 13 43 56 46 13 50 51 61 13 61 67 55 58 43 62 50 67 12 13 50 57 65 47 64 47 60 7 13 47 64 47 56 13 48 57 60 13 62 50 47 13 47 55 57 62 51 57 56 43 54 13 43 60 62 51 61 62 13 62 50 47 60 47 13 51 61 13 50 57 58 47 7 13 43 61 13 43 13 58 57 60 62 60 43 51 62 13 45 43 56 13 44 47 13 45 57 56 64 47 60 62 47 46 13 51 56 62 57 13 43 13 58 51 45 62 63 60 47 13 4 44 67 13 43 46 46 51 56 49 13 62 57 13 62 50 47 13 54 51 53 47 56 47 61 61 13 57 48 13 62 50 47 13 61 51 62 62 47 60 13 61 57 55 47 13 46 60 43 55 43 62 51 45 13 51 56 62 47 60 47 61 62 13 57 60 13 61 57 55 47 13 58 51 45 62 63 60 47 61 59 63 47 13 43 46 52 63 56 45 62 4 2"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000005_000009": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:828383",
+                    "name": "input1",
+                    "shape": [
+                        399,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        59,
+                        78
+                    ],
+                    "text": "As for etchings, they are of two kinds-British and foreign.",
+                    "token": "A s <space> f o r <space> e t c h i n g s , <space> t h e y <space> a r e <space> o f <space> t w o <space> k i n d s - B r i t i s h <space> a n d <space> f o r e i g n .",
+                    "tokenid": "15 61 13 48 57 60 13 47 62 45 50 51 56 49 61 7 13 62 50 47 67 13 43 60 47 13 57 48 13 62 65 57 13 53 51 56 46 61 8 16 60 51 62 51 61 50 13 43 56 46 13 48 57 60 47 51 49 56 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000005_000013": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:860990",
+                    "name": "input1",
+                    "shape": [
+                        2067,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        330,
+                        78
+                    ],
+                    "text": "And then the picture he draws of the ideal home, where everything, though ugly, is hallowed by domestic memories, and where beauty appeals not to the heartless eye but the family affections; 'baby's chair there, and the mother's work basket . . . near the fire, and the ornaments Fred brought home from India on the mantel board'!",
+                    "token": "A n d <space> t h e n <space> t h e <space> p i c t u r e <space> h e <space> d r a w s <space> o f <space> t h e <space> i d e a l <space> h o m e , <space> w h e r e <space> e v e r y t h i n g , <space> t h o u g h <space> u g l y , <space> i s <space> h a l l o w e d <space> b y <space> d o m e s t i c <space> m e m o r i e s , <space> a n d <space> w h e r e <space> b e a u t y <space> a p p e a l s <space> n o t <space> t o <space> t h e <space> h e a r t l e s s <space> e y e <space> b u t <space> t h e <space> f a m i l y <space> a f f e c t i o n s ; <space> ' b a b y ' s <space> c h a i r <space> t h e r e , <space> a n d <space> t h e <space> m o t h e r ' s <space> w o r k <space> b a s k e t <space> . <space> . <space> . <space> n e a r <space> t h e <space> f i r e , <space> a n d <space> t h e <space> o r n a m e n t s <space> F r e d <space> b r o u g h t <space> h o m e <space> f r o m <space> I n d i a <space> o n <space> t h e <space> m a n t e l <space> b o a r d ' !",
+                    "tokenid": "15 56 46 13 62 50 47 56 13 62 50 47 13 58 51 45 62 63 60 47 13 50 47 13 46 60 43 65 61 13 57 48 13 62 50 47 13 51 46 47 43 54 13 50 57 55 47 7 13 65 50 47 60 47 13 47 64 47 60 67 62 50 51 56 49 7 13 62 50 57 63 49 50 13 63 49 54 67 7 13 51 61 13 50 43 54 54 57 65 47 46 13 44 67 13 46 57 55 47 61 62 51 45 13 55 47 55 57 60 51 47 61 7 13 43 56 46 13 65 50 47 60 47 13 44 47 43 63 62 67 13 43 58 58 47 43 54 61 13 56 57 62 13 62 57 13 62 50 47 13 50 47 43 60 62 54 47 61 61 13 47 67 47 13 44 63 62 13 62 50 47 13 48 43 55 51 54 67 13 43 48 48 47 45 62 51 57 56 61 12 13 4 44 43 44 67 4 61 13 45 50 43 51 60 13 62 50 47 60 47 7 13 43 56 46 13 62 50 47 13 55 57 62 50 47 60 4 61 13 65 57 60 53 13 44 43 61 53 47 62 13 9 13 9 13 9 13 56 47 43 60 13 62 50 47 13 48 51 60 47 7 13 43 56 46 13 62 50 47 13 57 60 56 43 55 47 56 62 61 13 20 60 47 46 13 44 60 57 63 49 50 62 13 50 57 55 47 13 48 60 57 55 13 23 56 46 51 43 13 57 56 13 62 50 47 13 55 43 56 62 47 54 13 44 57 43 60 46 4 2"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000005_000014": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:1027037",
+                    "name": "input1",
+                    "shape": [
+                        460,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        71,
+                        78
+                    ],
+                    "text": "It is really impossible not to be touched by so charming a description.",
+                    "token": "I t <space> i s <space> r e a l l y <space> i m p o s s i b l e <space> n o t <space> t o <space> b e <space> t o u c h e d <space> b y <space> s o <space> c h a r m i n g <space> a <space> d e s c r i p t i o n .",
+                    "tokenid": "23 62 13 51 61 13 60 47 43 54 54 67 13 51 55 58 57 61 61 51 44 54 47 13 56 57 62 13 62 57 13 44 47 13 62 57 63 45 50 47 46 13 44 67 13 61 57 13 45 50 43 60 55 51 56 49 13 43 13 46 47 61 45 60 51 58 62 51 57 56 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000006_000003": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:1064524",
+                    "name": "input1",
+                    "shape": [
+                        111,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        12,
+                        78
+                    ],
+                    "text": "Far from it.",
+                    "token": "F a r <space> f r o m <space> i t .",
+                    "tokenid": "20 43 60 13 48 60 57 55 13 51 62 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        },
+        "1272_128104_000006_000008": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/dev_clean/feats.1.ark:1074091",
+                    "name": "input1",
+                    "shape": [
+                        257,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        35,
+                        78
+                    ],
+                    "text": "On the whole, the book will not do.",
+                    "token": "O n <space> t h e <space> w h o l e , <space> t h e <space> b o o k <space> w i l l <space> n o t <space> d o .",
+                    "tokenid": "29 56 13 62 50 47 13 65 50 57 54 47 7 13 62 50 47 13 44 57 57 53 13 65 51 54 54 13 56 57 62 13 46 57 9"
+                }
+            ],
+            "utt2spk": "1272_128104"
+        }

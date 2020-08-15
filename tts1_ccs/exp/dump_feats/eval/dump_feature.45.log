@@ -1,0 +1,7 @@
+# apply-cmvn --norm-vars=true data/train_clean_460/cmvn.ark scp:exp/dump_feats/eval/feats.45.scp ark:- | copy-feats.py --verbose 0 --out-filetype mat --compress=true --compression-method=2 --write-num-frames=ark,t:/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/test_clean/utt2num_frames.45 ark:- ark,scp:/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/test_clean/feats.45.ark,/home/iris/Documents/espnet-master/egs/libritts/tts1/dump/test_clean/feats.45.scp 
+# Started at Wed Mar 18 01:00:36 JST 2020
+#
+apply-cmvn --norm-vars=true data/train_clean_460/cmvn.ark scp:exp/dump_feats/eval/feats.45.scp ark:- 
+LOG (apply-cmvn[5.5.645~1-08d17]:main():apply-cmvn.cc:159) Applied cepstral mean and variance normalization to 75 utterances, errors on 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Mar 18 01:00:36 JST 2020, elapsed time 0 seconds

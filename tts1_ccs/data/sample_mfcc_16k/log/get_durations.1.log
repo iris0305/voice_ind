@@ -1,0 +1,8 @@
+# wav-to-duration --read-entire-file=false scp:data/sample_mfcc_16k/split1utt/1/wav.scp ark,t:data/sample_mfcc_16k/split1utt/1/utt2dur 
+# Started at Sun Aug 16 07:17:01 JST 2020
+#
+wav-to-duration --read-entire-file=false scp:data/sample_mfcc_16k/split1utt/1/wav.scp ark,t:data/sample_mfcc_16k/split1utt/1/utt2dur 
+LOG (wav-to-duration[5.5.645~1-08d17]:main():wav-to-duration.cc:92) Printed duration for 1 audio files.
+LOG (wav-to-duration[5.5.645~1-08d17]:main():wav-to-duration.cc:94) Mean duration was 4.715, min and max durations were 4.715, 4.715
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Aug 16 07:17:01 JST 2020, elapsed time 0 seconds

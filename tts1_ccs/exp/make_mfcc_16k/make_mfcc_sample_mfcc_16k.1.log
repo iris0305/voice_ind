@@ -1,0 +1,10 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc_16k/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc_16k/wav_sample_mfcc_16k.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc_16k/utt2num_frames.1 --compress=true ark:- ark,scp:/home/iris/Documents/espnet-master/egs/libritts/tts1_ccs/mfcc/raw_mfcc_sample_mfcc_16k.1.ark,/home/iris/Documents/espnet-master/egs/libritts/tts1_ccs/mfcc/raw_mfcc_sample_mfcc_16k.1.scp 
+# Started at Sun Aug 16 07:17:02 JST 2020
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc_16k/utt2num_frames.1 --compress=true ark:- ark,scp:/home/iris/Documents/espnet-master/egs/libritts/tts1_ccs/mfcc/raw_mfcc_sample_mfcc_16k.1.ark,/home/iris/Documents/espnet-master/egs/libritts/tts1_ccs/mfcc/raw_mfcc_sample_mfcc_16k.1.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc_16k/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc_16k/wav_sample_mfcc_16k.1.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.645~1-08d17]:main():compute-mfcc-feats.cc:182) Processed features for key 1462-170142-0000
+LOG (compute-mfcc-feats[5.5.645~1-08d17]:main():compute-mfcc-feats.cc:185)  Done 1 out of 1 utterances.
+LOG (copy-feats[5.5.645~1-08d17]:main():copy-feats.cc:143) Copied 1 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sun Aug 16 07:17:02 JST 2020, elapsed time 0 seconds

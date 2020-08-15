@@ -1,0 +1,5 @@
+# feat-to-shape.py --verbose 0 scp:dump/dev_clean/log/feats.1.scp dump/dev_clean/log/shape.1.scp 
+# Started at Tue Mar 17 15:36:15 JST 2020
+#
+# Accounting: time=4 threads=1
+# Ended (code 0) at Tue Mar 17 15:36:19 JST 2020, elapsed time 4 seconds

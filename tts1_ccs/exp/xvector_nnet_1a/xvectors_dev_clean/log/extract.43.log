@@ -1,0 +1,82 @@
+# nnet3-xvector-compute --use-gpu=no --min-chunk-size=25 --chunk-size=10000 --cache-capacity=64 "nnet3-copy --nnet-config=exp/xvector_nnet_1a/extract.config exp/xvector_nnet_1a/final.raw - |" "ark:apply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 scp:data/dev_clean_mfcc_16k/split64/43/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/dev_clean_mfcc_16k/split64/43/vad.scp ark:- |" ark,scp:exp/xvector_nnet_1a/xvectors_dev_clean/xvector.43.ark,exp/xvector_nnet_1a/xvectors_dev_clean/xvector.43.scp 
+# Started at Wed Mar 18 06:06:09 JST 2020
+#
+nnet3-xvector-compute --use-gpu=no --min-chunk-size=25 --chunk-size=10000 --cache-capacity=64 'nnet3-copy --nnet-config=exp/xvector_nnet_1a/extract.config exp/xvector_nnet_1a/final.raw - |' 'ark:apply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 scp:data/dev_clean_mfcc_16k/split64/43/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/dev_clean_mfcc_16k/split64/43/vad.scp ark:- |' ark,scp:exp/xvector_nnet_1a/xvectors_dev_clean/xvector.43.ark,exp/xvector_nnet_1a/xvectors_dev_clean/xvector.43.scp 
+nnet3-copy --nnet-config=exp/xvector_nnet_1a/extract.config exp/xvector_nnet_1a/final.raw - 
+WARNING (nnet3-copy[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn6.relu is never used to compute any output.
+WARNING (nnet3-copy[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn6.batchnorm is never used to compute any output.
+WARNING (nnet3-copy[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn7.affine is never used to compute any output.
+WARNING (nnet3-copy[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn7.relu is never used to compute any output.
+WARNING (nnet3-copy[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn7.batchnorm is never used to compute any output.
+WARNING (nnet3-copy[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node output.affine is never used to compute any output.
+WARNING (nnet3-copy[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node output.log-softmax is never used to compute any output.
+WARNING (nnet3-xvector-compute[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn6.relu is never used to compute any output.
+WARNING (nnet3-xvector-compute[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn6.batchnorm is never used to compute any output.
+WARNING (nnet3-xvector-compute[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn7.affine is never used to compute any output.
+WARNING (nnet3-xvector-compute[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn7.relu is never used to compute any output.
+WARNING (nnet3-xvector-compute[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node tdnn7.batchnorm is never used to compute any output.
+WARNING (nnet3-xvector-compute[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node output.affine is never used to compute any output.
+WARNING (nnet3-xvector-compute[5.5.645~1-08d17]:Check():nnet-nnet.cc:789) Node output.log-softmax is never used to compute any output.
+LOG (nnet3-copy[5.5.645~1-08d17]:main():nnet3-copy.cc:114) Copied raw neural net from exp/xvector_nnet_1a/final.raw to -
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 7 orphan nodes.
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 7 orphan components.
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:Collapse():nnet-utils.cc:1472) Added 0 components, removed 7
+apply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 scp:data/dev_clean_mfcc_16k/split64/43/feats.scp ark:- 
+select-voiced-frames ark:- scp,s,cs:data/dev_clean_mfcc_16k/split64/43/vad.scp ark:- 
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000002_000000, using chunk size  of 103
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000003_000000, using chunk size  of 149
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000004_000000, using chunk size  of 193
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000006_000000, using chunk size  of 415
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000008_000000, using chunk size  of 540
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000008_000002, using chunk size  of 623
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000009_000000, using chunk size  of 383
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000009_000001, using chunk size  of 430
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000010_000001, using chunk size  of 407
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000011_000000, using chunk size  of 1067
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000011_000002, using chunk size  of 444
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000011_000003, using chunk size  of 349
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000012_000000, using chunk size  of 261
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000015_000001, using chunk size  of 192
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000017_000000, using chunk size  of 230
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000017_000001, using chunk size  of 483
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000018_000000, using chunk size  of 1289
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000018_000003, using chunk size  of 698
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000018_000005, using chunk size  of 578
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000020_000000, using chunk size  of 707
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000020_000001, using chunk size  of 326
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000023_000000, using chunk size  of 656
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000024_000001, using chunk size  of 536
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000026_000000, using chunk size  of 985
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000028_000000, using chunk size  of 285
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000029_000001, using chunk size  of 110
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000030_000000, using chunk size  of 224
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000030_000001, using chunk size  of 385
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000030_000002, using chunk size  of 166
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000031_000000, using chunk size  of 310
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000031_000002, using chunk size  of 181
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000031_000004, using chunk size  of 153
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000032_000000, using chunk size  of 438
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000033_000001, using chunk size  of 454
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000034_000000, using chunk size  of 373
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000035_000001, using chunk size  of 292
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000035_000002, using chunk size  of 445
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000035_000005, using chunk size  of 205
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000036_000002, using chunk size  of 760
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000037_000000, using chunk size  of 1589
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000038_000000, using chunk size  of 463
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000038_000001, using chunk size  of 360
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000038_000004, using chunk size  of 609
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000038_000005, using chunk size  of 609
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000039_000000, using chunk size  of 172
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000039_000002, using chunk size  of 730
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000039_000004, using chunk size  of 796
+LOG (apply-cmvn-sliding[5.5.645~1-08d17]:main():apply-cmvn-sliding.cc:75) Applied sliding-window cepstral mean normalization to 50 utterances, 0 had errors.
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000039_000005, using chunk size  of 1511
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000040_000000, using chunk size  of 425
+LOG (select-voiced-frames[5.5.645~1-08d17]:main():select-voiced-frames.cc:106) Done selecting voiced frames; processed 50 utterances, 0 had errors.
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:182) Chunk size of 10000 is greater than the number of rows in utterance: 6241_61943_000040_000001, using chunk size  of 1272
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:238) Time taken 40.6416s: real-time factor assuming 100 frames/sec is 0.160252
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:main():nnet3-xvector-compute.cc:241) Done 50 utterances, failed for 0
+LOG (nnet3-xvector-compute[5.5.645~1-08d17]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 36.1 seconds taken in nnet3 compilation total (breakdown: 35.7 compilation, 0.05 optimization, 0 shortcut expansion, 0.0141 checking, 3.31e-05 computing indexes, 0.308 misc.) + 0 I/O.
+# Accounting: time=40 threads=1
+# Ended (code 0) at Wed Mar 18 06:06:49 JST 2020, elapsed time 40 seconds

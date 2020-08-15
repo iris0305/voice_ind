@@ -1,0 +1,8 @@
+# ivector-mean ark:data/dev_clean_mfcc_16k/spk2utt scp:exp/xvector_nnet_1a/xvectors_dev_clean/xvector.scp ark,scp:exp/xvector_nnet_1a/xvectors_dev_clean/spk_xvector.ark,exp/xvector_nnet_1a/xvectors_dev_clean/spk_xvector.scp ark,t:exp/xvector_nnet_1a/xvectors_dev_clean/num_utts.ark 
+# Started at Wed Mar 18 06:09:54 JST 2020
+#
+ivector-mean ark:data/dev_clean_mfcc_16k/spk2utt scp:exp/xvector_nnet_1a/xvectors_dev_clean/xvector.scp ark,scp:exp/xvector_nnet_1a/xvectors_dev_clean/spk_xvector.ark,exp/xvector_nnet_1a/xvectors_dev_clean/spk_xvector.scp ark,t:exp/xvector_nnet_1a/xvectors_dev_clean/num_utts.ark 
+LOG (ivector-mean[5.5.645~1-08d17]:main():ivector-mean.cc:134) Computed mean of 96 speakers (0 with no utterances), consisting of 5733 utterances (0 absent from input).
+LOG (ivector-mean[5.5.645~1-08d17]:main():ivector-mean.cc:145) Norm of mean of speakers is 31.3256, root-mean-square speaker-iVector length divided by sqrt(dim) is 2.32373
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Mar 18 06:09:54 JST 2020, elapsed time 0 seconds

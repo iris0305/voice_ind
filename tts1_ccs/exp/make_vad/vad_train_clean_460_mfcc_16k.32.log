@@ -1,0 +1,8 @@
+# compute-vad --config=conf/vad.conf scp:data/train_clean_460_mfcc_16k/split64/32/feats.scp ark,scp:/home/iris/Documents/espnet-master/egs/libritts/tts1/mfcc/vad_train_clean_460_mfcc_16k.32.ark,/home/iris/Documents/espnet-master/egs/libritts/tts1/mfcc/vad_train_clean_460_mfcc_16k.32.scp 
+# Started at Wed Mar 18 01:56:30 JST 2020
+#
+compute-vad --config=conf/vad.conf scp:data/train_clean_460_mfcc_16k/split64/32/feats.scp ark,scp:/home/iris/Documents/espnet-master/egs/libritts/tts1/mfcc/vad_train_clean_460_mfcc_16k.32.ark,/home/iris/Documents/espnet-master/egs/libritts/tts1/mfcc/vad_train_clean_460_mfcc_16k.32.scp 
+LOG (compute-vad[5.5.645~1-08d17]:main():compute-vad.cc:95) Applied energy based voice activity detection; processed 2305 utterances successfully; 0 had empty features, and 0 were completely unvoiced.
+LOG (compute-vad[5.5.645~1-08d17]:main():compute-vad.cc:99) Proportion of voiced frames was 0.896526 over 1.26606e+06 frames.
+# Accounting: time=8 threads=1
+# Ended (code 0) at Wed Mar 18 01:56:38 JST 2020, elapsed time 8 seconds

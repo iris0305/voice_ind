@@ -1,0 +1,5 @@
+# compute-fbank-feats.py --fs 24000 --fmax --fmin --n_fft 1024 --n_shift 256 --win_length --window hann --n_mels 80 --write-num-frames=ark,t:exp/make_fbank/train_clean_100/utt2num_frames.35 --compress=true --filetype mat --normalize 16 scp:exp/make_fbank/train_clean_100/wav.35.scp ark,scp:/home/iris/Documents/espnet-master/egs/libritts/tts1/fbank/raw_fbank_train_clean_100.35.ark,/home/iris/Documents/espnet-master/egs/libritts/tts1/fbank/raw_fbank_train_clean_100.35.scp 
+# Started at Wed Mar 18 00:17:03 JST 2020
+#
+# Accounting: time=55 threads=1
+# Ended (code 0) at Wed Mar 18 00:17:58 JST 2020, elapsed time 55 seconds

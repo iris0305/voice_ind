@@ -1,0 +1,1 @@
+1462-170142-0000 cat data/sample/wav/1462-170142-0000/1462-170142-0000.wav | /usr/bin/sox -t wav - -c 1 -b 16 -t wav - rate 16000 |

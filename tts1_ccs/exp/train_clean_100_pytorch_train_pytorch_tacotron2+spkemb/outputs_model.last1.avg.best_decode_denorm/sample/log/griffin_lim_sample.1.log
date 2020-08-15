@@ -1,0 +1,7 @@
+# convert_fbank_to_wav.py --fs 24000 --fmax --fmin --win_length --n_fft 1024 --n_shift 256 --n_mels 80 --iters 64 scp:exp/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb/outputs_model.last1.avg.best_decode_denorm/sample/log/feats.1.scp exp/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb/outputs_model.last1.avg.best_decode_denorm/sample/wav_20 
+# Started at Sun Aug 16 07:19:23 JST 2020
+#
+2020-08-16 07:19:26,561 (convert_fbank_to_wav:133) INFO: /home/iris/Documents/espnet-master/tools/venv/bin/python3 /home/iris/Documents/espnet-master/egs/libritts/tts1_ccs/../../../utils/convert_fbank_to_wav.py --fs 24000 --fmax --fmin --win_length --n_fft 1024 --n_shift 256 --n_mels 80 --iters 64 scp:exp/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb/outputs_model.last1.avg.best_decode_denorm/sample/log/feats.1.scp exp/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb/outputs_model.last1.avg.best_decode_denorm/sample/wav_20
+2020-08-16 07:19:35,482 (convert_fbank_to_wav:158) INFO: (1) 1462-170142-0000
+# Accounting: time=13 threads=1
+# Ended (code 0) at Sun Aug 16 07:19:36 JST 2020, elapsed time 13 seconds

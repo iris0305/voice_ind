@@ -1,0 +1,205 @@
+# tts_train.py --backend pytorch --ngpu 0 --outdir exp/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb/results --tensorboard-dir tensorboard/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb --verbose 1 --seed 1 --resume --train-json dump/train_clean_100/data.json --valid-json dump/dev_clean/data.json --config conf/train_pytorch_tacotron2+spkemb.yaml 
+# Started at Tue Mar 17 15:27:55 JST 2020
+#
+2020-03-17 15:27:56,469 (tts_train:169) INFO: ngpu: 0
+2020-03-17 15:27:56,469 (tts_train:172) INFO: random seed = 1
+2020-03-17 15:27:56,500 (deterministic_utils:24) INFO: torch type check is disabled
+2020-03-17 15:27:56,565 (tts:278) INFO: #input dims : 78
+2020-03-17 15:27:56,565 (tts:279) INFO: #output dims: 80
+2020-03-17 15:27:56,565 (tts:296) INFO: writing a model config file toexp/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb/results/model.json
+2020-03-17 15:27:56,565 (tts:300) INFO: ARGS: accum_grad: 1
+2020-03-17 15:27:56,565 (tts:300) INFO: ARGS: aconv_chans: 32
+2020-03-17 15:27:56,565 (tts:300) INFO: ARGS: aconv_filts: 15
+2020-03-17 15:27:56,565 (tts:300) INFO: ARGS: adim: 128
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: atype: location
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: backend: pytorch
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: batch_bins: 0
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: batch_count: auto
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: batch_frames_in: 0
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: batch_frames_inout: 0
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: batch_frames_out: 0
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: batch_size: 64
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: batch_sort_key: output
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: bce_pos_weight: 1.0
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: cbhg_conv_bank_chans: 128
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: cbhg_conv_bank_layers: 8
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: cbhg_conv_proj_chans: 256
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: cbhg_conv_proj_filts: 3
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: cbhg_gru_units: 256
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: cbhg_highway_layers: 4
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: cbhg_highway_units: 128
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: config: conf/train_pytorch_tacotron2+spkemb.yaml
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: config2: None
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: config3: None
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: cumulate_att_w: True
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: debugmode: 1
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: dlayers: 2
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: dropout_rate: 0.5
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: dunits: 1024
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: early_stop_criterion: validation/main/loss
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: econv_chans: 512
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: econv_filts: 5
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: econv_layers: 3
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: elayers: 1
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: embed_dim: 512
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: epochs: 30
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: eps: 1e-06
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: eunits: 512
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: eval_interval_epochs: 1
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: grad_clip: 1
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: guided_attn_loss_lambda: 1.0
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: guided_attn_loss_sigma: 0.4
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: keep_all_data_on_mem: False
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: lr: 0.001
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: maxlen_in: 150
+2020-03-17 15:27:56,566 (tts:300) INFO: ARGS: maxlen_out: 400
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: minibatches: -1
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: model_module: espnet.nets.pytorch_backend.e2e_tts_tacotron2:Tacotron2
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: ngpu: 0
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: num_iter_processes: 0
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: num_save_attention: 5
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: opt: adam
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: outdir: exp/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb/results
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: output_activation: None
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: patience: 0
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: postnet_chans: 512
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: postnet_filts: 5
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: postnet_layers: 5
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: prenet_layers: 2
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: prenet_units: 256
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: preprocess_conf: None
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: pretrained_model: None
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: reduction_factor: 2
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: report_interval_iters: 100
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: resume: None
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: save_interval_epochs: 1
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: seed: 1
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: sortagrad: 0
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: spc_dim: None
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: spk_embed_dim: 512
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: tensorboard_dir: tensorboard/train_clean_100_pytorch_train_pytorch_tacotron2+spkemb
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: train_json: dump/train_clean_100/data.json
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_batch_norm: True
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_cbhg: False
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_concate: True
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_guided_attn_loss: False
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_masking: True
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_residual: False
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_second_target: False
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_speaker_embedding: True
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: use_weighted_masking: False
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: valid_json: dump/dev_clean/data.json
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: verbose: 1
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: weight_decay: 0.0
+2020-03-17 15:27:56,567 (tts:300) INFO: ARGS: zoneout_rate: 0.1
+2020-03-17 15:27:56,806 (tts:306) INFO: Tacotron2(
+  (enc): Encoder(
+    (embed): Embedding(78, 512, padding_idx=0)
+    (convs): ModuleList(
+      (0): Sequential(
+        (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+        (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): ReLU()
+        (3): Dropout(p=0.5)
+      )
+      (1): Sequential(
+        (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+        (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): ReLU()
+        (3): Dropout(p=0.5)
+      )
+      (2): Sequential(
+        (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+        (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): ReLU()
+        (3): Dropout(p=0.5)
+      )
+    )
+    (blstm): LSTM(512, 256, batch_first=True, bidirectional=True)
+  )
+  (dec): Decoder(
+    (att): AttLoc(
+      (mlp_enc): Linear(in_features=1024, out_features=128, bias=True)
+      (mlp_dec): Linear(in_features=1024, out_features=128, bias=False)
+      (mlp_att): Linear(in_features=32, out_features=128, bias=False)
+      (loc_conv): Conv2d(1, 32, kernel_size=(1, 31), stride=(1, 1), padding=(0, 15), bias=False)
+      (gvec): Linear(in_features=128, out_features=1, bias=True)
+    )
+    (lstm): ModuleList(
+      (0): ZoneOutCell(
+        (cell): LSTMCell(1280, 1024)
+      )
+      (1): ZoneOutCell(
+        (cell): LSTMCell(1024, 1024)
+      )
+    )
+    (prenet): Prenet(
+      (prenet): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=80, out_features=256, bias=True)
+          (1): ReLU()
+        )
+        (1): Sequential(
+          (0): Linear(in_features=256, out_features=256, bias=True)
+          (1): ReLU()
+        )
+      )
+    )
+    (postnet): Postnet(
+      (postnet): ModuleList(
+        (0): Sequential(
+          (0): Conv1d(80, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+          (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): Tanh()
+          (3): Dropout(p=0.5)
+        )
+        (1): Sequential(
+          (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+          (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): Tanh()
+          (3): Dropout(p=0.5)
+        )
+        (2): Sequential(
+          (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+          (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): Tanh()
+          (3): Dropout(p=0.5)
+        )
+        (3): Sequential(
+          (0): Conv1d(512, 512, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+          (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): Tanh()
+          (3): Dropout(p=0.5)
+        )
+        (4): Sequential(
+          (0): Conv1d(512, 80, kernel_size=(5,), stride=(1,), padding=(2,), bias=False)
+          (1): BatchNorm1d(80, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (2): Dropout(p=0.5)
+        )
+      )
+    )
+    (feat_out): Linear(in_features=2048, out_features=160, bias=False)
+    (prob_out): Linear(in_features=2048, out_features=2, bias=True)
+  )
+  (taco2_loss): Tacotron2Loss(
+    (l1_criterion): L1Loss()
+    (mse_criterion): MSELoss()
+    (bce_criterion): BCEWithLogitsLoss()
+  )
+)
+Traceback (most recent call last):
+  File "/home/iris/Documents/espnet-master/egs/libritts/tts1/../../../espnet/bin/tts_train.py", line 184, in <module>
+    main(sys.argv[1:])
+  File "/home/iris/Documents/espnet-master/egs/libritts/tts1/../../../espnet/bin/tts_train.py", line 178, in main
+    train(args)
+  File "/home/iris/Documents/espnet-master/espnet/tts/pytorch_backend/tts.py", line 338, in train
+    train_json = json.load(f)['utts']
+  File "/home/iris/Documents/espnet-master/tools/venv/lib/python3.7/json/__init__.py", line 296, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/home/iris/Documents/espnet-master/tools/venv/lib/python3.7/json/__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "/home/iris/Documents/espnet-master/tools/venv/lib/python3.7/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/iris/Documents/espnet-master/tools/venv/lib/python3.7/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+KeyboardInterrupt

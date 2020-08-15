@@ -1,0 +1,29 @@
+{
+    "utts": {
+        "1462-170142-0000": {
+            "input": [
+                {
+                    "feat": "/home/iris/Documents/espnet-master/egs/libritts/tts1_ccs/dump/sample/feats.1.ark:17",
+                    "name": "input1",
+                    "shape": [
+                        295,
+                        80
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        116,
+                        73
+                    ],
+                    "text": "THE LAST TWO DAYS OF THE VOYAGE BARTLEY FOUND ALMOST INTOLERABLEATELY TO GET IN FOR SHELTER AND THEN WENT MOANING ON",
+                    "token": "T H E <space> L A S T <space> T W O <space> D A Y S <space> O F <space> T H E <space> V O Y A G E <space> B A R T L E Y <space> F O U N D <space> A L M O S T <space> I N T O L E R A B L E A T E L Y <space> T O <space> G E T <space> I N <space> F O R <space> S H E L T E R <space> A N D <space> T H E N <space> W E N T <space> M O A N I N G <space> O N",
+                    "tokenid": "34 22 19 13 26 15 33 34 13 34 37 29 13 18 15 39 33 13 29 20 13 34 22 19 13 36 29 39 15 21 19 13 16 15 32 34 26 19 39 13 20 29 35 28 18 13 15 26 27 29 33 34 13 23 28 34 29 26 19 32 15 16 26 19 15 34 19 26 39 13 34 29 13 21 19 34 13 23 28 13 20 29 32 13 33 22 19 26 34 19 32 13 15 28 18 13 34 22 19 28 13 37 19 28 34 13 27 29 15 28 23 28 21 13 29 28"
+                }
+            ],
+            "utt2spk": "1462"
+        }
+    }
+}

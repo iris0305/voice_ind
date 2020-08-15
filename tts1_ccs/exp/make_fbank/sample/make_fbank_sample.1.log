@@ -1,0 +1,5 @@
+# compute-fbank-feats.py --fs 24000 --fmax --fmin --n_fft 1024 --n_shift 256 --win_length --window hann --n_mels 80 --write-num-frames=ark,t:exp/make_fbank/sample/utt2num_frames.1 --compress=true --filetype mat --normalize 16 scp:exp/make_fbank/sample/wav.1.scp ark,scp:/home/iris/Documents/espnet-master/egs/libritts/tts1_ccs/fbank/raw_fbank_sample.1.ark,/home/iris/Documents/espnet-master/egs/libritts/tts1_ccs/fbank/raw_fbank_sample.1.scp 
+# Started at Sun Aug 16 07:16:47 JST 2020
+#
+# Accounting: time=3 threads=1
+# Ended (code 0) at Sun Aug 16 07:16:50 JST 2020, elapsed time 3 seconds
