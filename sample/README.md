@@ -15,6 +15,6 @@ They have the same content but cannot be recognized as the same speaker.
 “(protected)1462-170142-0000.wav” is the protected utterance for it. <br>
 They have the same content but cannot be recognized as the same speaker.
 
-## The setting of $\varepsilon$
+## The setting of &#949;
 
-Both protected utterances are obtained when $\varepsilon$ = 20.
+Both protected utterances are obtained when &#949; = 20.
