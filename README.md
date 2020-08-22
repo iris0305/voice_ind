@@ -1,4 +1,4 @@
-# Voice-Indistinguishability: Protecting Voiceprint with Differential Privacy under an Untrusted Server
+# Voice-Indistinguishability: Protecting Voiceprint with Differential Privacy
 
 
 With the rising adoption of advanced voice-based technology together with increasing consumer demand for smart devices, voice-controlled “virtual assistants” such as Apple’s Siri and Google Assistant have been integrated into people’s daily lives.
