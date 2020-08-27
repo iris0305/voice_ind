@@ -20,5 +20,5 @@ Yaowei Han, Sheng Li, Yang Cao, Qiang Ma, and Masatoshi Yoshikawa. <br>
 https://ieeexplore.ieee.org/abstract/document/9102875
 
 - [**ACM CCS 2020 demo**] Voice-Indistinguishability: Protecting Voiceprint with Differential Privacy under an Untrusted Server.
-Yaowei Han, Sheng Li, Yang Cao, Qiang Ma, and Masatoshi Yoshikawa. <br>
+Yaowei Han,  Yang Cao, Sheng Li, Qiang Ma, and Masatoshi Yoshikawa. <br>
 
