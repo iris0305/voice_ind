@@ -5,7 +5,7 @@ With the rising adoption of advanced voice-based technology together with increa
 However, privacy and security concerns may hinder the development of such voice-based applications since speech data contain the speaker's biometric identifier, i.e., voiceprint (as analogous to ﬁngerprint).
 To alleviate privacy concerns in speech data collection, we proposed the first formal privacy notion for voiceprint privacy, called *Voice-Indistinguishability*.
 In our work in **ICME 2020**, we designed a method to release private voice record datasets satisfyinng our privacy notion.
-We also demonstrated how to use Voice-Indistinguishability in a local setting in our demo paper accepted by **ACM CCS 2020**:
+We also demonstrated how to use Voice-Indistinguishability in a local setting in our demo paper accepted by **ACM CCS 2020** (demo/poster track):
 we designed a fast speech data de-identification system that allows a single user to share her speech data with formal privacy guarantee to an untrusted server.
 Our open-sourced system could be integrated into other speech processing systems for collecting users' voice data in a privacy-preserving way.
 Experiments on public datasets verify the effectiveness and efficiency of the proposed system.
